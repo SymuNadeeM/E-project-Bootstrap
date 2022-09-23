@@ -1,0 +1,56 @@
+.total_items {
+  position: relative;
+}
+.carouel_text h1,
+h2 {
+  color: black;
+  font-weight: 800;
+}
+.carouel_text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+.carousel-indicators [data-bs-target] {
+  background-color: var(--bg-danger);
+  width: 2.5rem;
+  height: 0.313rem;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: transparent;
+}
+@media (max-width: 1030px) {
+  .carouel_text {
+    transform: translate(-80%, -50%);
+  }
+}
+
+@media (max-width: 991px) {
+  .carouel_text {
+    transform: translate(-66%, -50%);
+  }
+}
+@media (max-width: 767px) {
+  .total_items img {
+    min-height: 350px;
+  }
+  .carouel_text {
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .carouel_text h1 {
+    font-size: 2rem;
+  }
+  .carouel_text h2 {
+    font-size: 1rem;
+  }
+  .carouel_text .btn-danger {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}

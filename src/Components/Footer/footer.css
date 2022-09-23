@@ -1,0 +1,31 @@
+.footer_cla {
+  background-color: var(--bg-danger);
+  padding: 6rem 0;
+  color: #fff;
+}
+
+.all_media {
+  padding-top: 2rem;
+  text-align: center;
+  align-items: center;
+}
+.social_media .smedia_icon {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  padding: 7px;
+  border: 0.5px solid wheat;
+  border-radius: 50%;
+  margin: 0 7px;
+}
+.social_media .smedia_icon:hover {
+  background: #fff;
+  color: var(--bg-danger);
+  transition: 0.2s;
+}
+@media (max-width: 767px) {
+  .part-one p {
+    font-size: 14px;
+    color: lightcyan;
+  }
+}

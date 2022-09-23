@@ -1,0 +1,27 @@
+.summer {
+  background: #f9f3ee;
+  padding: 6rem 0;
+}
+.summer_details {
+  padding: 3rem 1rem;
+}
+.titel-summer p {
+  font-weight: 300;
+  color: gray;
+  line-height: 1.875rem;
+}
+.count-down-price {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.count-down-price del {
+  color: gray;
+  font-size: 1rem;
+}
+.summer_details .time_counter .conunt_donwn {
+  width: 40%;
+  height: 4rem;
+  padding: 10px;
+  background-color: crimson;
+  color: #fff;
+}
